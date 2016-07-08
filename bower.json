@@ -1,0 +1,22 @@
+{
+  "name": "promopage",
+  "description": "promopage",
+  "main": "index.html",
+  "authors": [
+    "SneghkA"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
