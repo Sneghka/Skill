@@ -22,16 +22,7 @@
                  $("#front_slider_2").attr("src", "images/Univer_front_min.png"),
                  $(".laptop").attr("src", "images/Laptop_min.png");
          }
-     });
-
-     /*$(".bx-prev").css("href", "http://api.jquery.com/attr/")
-       var frontSliderHeigth = $(".front_slider").height();
-       var heightFromTopWindowToTopFrontSlider = $(".front_slider").offset().top;
-       var halfArrowheigth = 36;
-       var topHeightForArrow = Math.round((frontSliderHeigth / 2 + heightFromTopWindowToTopFrontSlider - halfArrowheigth) * 100 / window.innerHeight) + "%";
-       $(".bx-prev").css("top", "topHeightForArrow");
-      */
-
+     });     
  });
 
  function ControlsDirection() {
@@ -43,9 +34,7 @@
              $(".bx-prev").attr("style", "top:" + topHeightForArrow1);
              $(".bx-next").attr("style", "top:" + topHeightForArrow1);
          }
-     else {
-         
-     }
+  
          /* alert(frontSliderHeigth + " / " + heightFromTopWindowToTopFrontSlider + " / " + " / "+ screen.height + topHeightForArrow);*/
 
 

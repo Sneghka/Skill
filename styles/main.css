@@ -44,9 +44,6 @@ section {
 
 /*SECTION 1*/
 
-.bx-wrapper a.bx-prev {
-   
-}
 
 .bx-wrapper .bx-pager.bx-default-pager a[data-slide-index = '0'] {
     background: url(../images/ico%20mc2.png) no-repeat;
@@ -578,24 +575,7 @@ footer a {
     .laptop,
     .front_slider {
         top: 29%;
-    }
-   /*  .bx-wrapper .bx-controls-direction a {
-        top: 48% !important;
-    }*/
-    #navbar a {
-        font-size: 24px;
-    }
-    #navbar li {
-        line-height: 78px;
-    }
-}
-
-@media only screen and (max-width: 969px) and (orientation: landscape) {
-    .laptop,
-    .front_slider {
-        top: 25%;
-    }
-   
+    }   
     #navbar a {
         font-size: 24px;
     }
@@ -637,12 +617,41 @@ footer a {
     }
 }
 
+
+@media only screen and (max-width: 969px) and  (min-width: 900px) and (orientation: landscape) {
+    .laptop,
+    .front_slider {
+        top: 25%;
+    }
+       #navbar a {
+        font-size: 24px;
+    }
+    #navbar li {
+        line-height: 78px;
+    }
+}
+
+
 @media only screen and (max-width: 924px) {
     .partner-name {
         font-size: 3em;
     }
     .partner-description {
         font-size: 1.8em;
+    }
+}
+
+
+@media only screen and (max-width: 899px) {
+    .laptop,
+    .front_slider {
+        top: 23%;
+    }
+       #navbar a {
+        font-size: 20px;
+    }
+    #navbar li {
+        line-height: 78px;
     }
 }
 
