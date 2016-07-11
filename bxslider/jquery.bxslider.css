@@ -87,7 +87,7 @@
 	background: #666;
 	text-indent: -9999px;
 	display: block;
-	width: auto;
+	width: 93px;
 	height: 49px;
 	margin: 0 5px;
 	outline: 0;
@@ -95,6 +95,7 @@
 	-webkit-border-radius: 5px;
 	border-radius: 5px;*/
 }
+
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -105,29 +106,29 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(../images/arrow-prev.png) no-repeat;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(../images/arrow-next.png) no-repeat;
 }
 
-.bx-wrapper .bx-prev:hover {
+/*.bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
-}
+}*/
 
-.bx-wrapper .bx-next:hover {
+/*.bx-wrapper .bx-next:hover {
 	background-position: -43px 0;
-}
+}*/
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
-	top: 50%;
+	/*top: 50%;*/
 	margin-top: -16px;
 	outline: 0;
 	width: 32px;
-	height: 32px;
+	height: 72px;
 	text-indent: -9999px;
 	z-index: 9999;
 }
