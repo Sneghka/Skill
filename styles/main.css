@@ -14,6 +14,9 @@ html {
     background: #fff;
     color: #333;
 }
+body, html {
+    overflow:hidden;
+}
 section {
     width: 100%;
     overflow: hidden;
@@ -437,9 +440,7 @@ footer a {
         top: 23%;
         margin-left: 0;
     }
-    .bx-wrapper .bx-controls-direction a {
-        top: 55.5% !important;
-    }
+    
 }
 @media only screen and (max-width: 1500px) {
     .partner-name {
@@ -491,9 +492,7 @@ footer a {
     .laptop {
         top: 25%;
     }
-    /*.bx-wrapper .bx-controls-direction a {
-        top: 48.5% !important;
-    }*/
+    
 }
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
     .laptop,
@@ -610,9 +609,7 @@ footer a {
         top: 28%;
         margin-left: -5%;
     }
-    .bx-wrapper .bx-controls-direction a {
-        top: 53.5% !important;
-    }
+    
     #navbar > ul.list-unstyled {
         position: absolute;
         top: 101%;
