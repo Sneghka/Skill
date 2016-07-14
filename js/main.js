@@ -8,6 +8,9 @@
          controls: false*/
      });
 
+$("#scroll").click(function () {
+                 $('html, body').stop().animate({scrollTop:0}, 1000, 'swing');         
+             });
 
 
      $(window).scroll(function () {
