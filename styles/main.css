@@ -529,14 +529,15 @@ footer a {
     -webkit-background-origin: border;
     20. box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.4), inset 0 0 0 1px rgba( 0, 0, 0, 0.2), inset 0 1px 0 rgba( 255, 255, 255, .4), inset 0 10px 10px rgba( 255, 255, 255, .1);
     -webkit-background-origin: border;
-20.	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );    
+    20. box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.4), inset 0 0 0 1px rgba( 0, 0, 0, 0.2), inset 0 1px 0 rgba( 255, 255, 255, .4), inset 0 10px 10px rgba( 255, 255, 255, .1);
 }
+
 #scroll span {
     display: block;
     overflow: hidden;
     width: 14px;
     height: 12px;
-    background: url(../images/up.png)no-repeat center center;    
+    background: url(../images/up.png)no-repeat center center;
 }
 
 
@@ -615,9 +616,7 @@ footer a {
     .front_slider {
         top: 29%;
     }
-    #navbar a {
-        font-size: 24px;
-    }
+   
     #navbar li {
         line-height: 78px;
     }
@@ -653,6 +652,9 @@ footer a {
     }
     .partner-description {
         font-size: 2em;
+    }
+    #navbar a {
+        font-size: 24px;
     }
 }
 
